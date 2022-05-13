@@ -1,0 +1,190 @@
+/* Pon aquí el código CSS que necesites para aplicar los estilos necesarios */
+
+
+
+/* Quizá para algunas actividades debas modificar estilos estilos según corresponda */
+.contenedor-actividades .act7 .imagen-gato{
+    float: left;
+}
+
+.contenedor-actividades .act7 .imagen-perros{
+    float: right;
+}
+
+.contenedor-actividades .act8-contenedor{
+    position: relative;
+}
+
+.contenedor-actividades .act8 .imagen-perros{
+    float: right;
+    position: absolute;
+    left: 10px;
+    border: 1px solid black;
+}
+
+.contenedor-actividades .act8 .imagen-gato{
+    float: left;
+    position: absolute;
+    left: 90px;
+    top: 30px;
+    border: 1px solid black;
+}
+
+.contenedor-actividades .act8 .imagen-pajaro{
+    float: left;
+    position: absolute;
+    left: 90px;
+    top: 90px;
+    border: 1px solid black;
+}
+
+.contenedor-actividades .act9 .act9-contenedor{
+    width: 500px;
+    border: 3px dotted gray;
+}
+/*ACT1*/
+
+#act1-caja1{
+    position: relative;
+    top: 95px;
+    left: 300px;
+}
+#act1-caja3{
+    position: relative;
+    left: 300px;
+}
+#act1-parrafo2{
+    position: relative;
+    bottom: 20px;
+}
+
+/*ACT2*/
+
+.act2{
+    position: relative;
+
+}
+#act2-caja1{
+    position: absolute;
+    right: 0px;
+}
+#act2-caja3{
+    position: absolute;
+    right: 0px;
+    bottom: 0px;
+}
+#act2-parrafo1{
+    position: absolute;
+    bottom: 10px;
+    left:20px;
+}
+#act2-parrafo2{
+    position: absolute;
+    bottom: 25px;
+    right: 20px;
+}
+/*act3*/
+.act3{
+    /*position: absolute;*/
+}
+.act3-contenedor{
+    position: relative;
+}
+#act3-caja1{
+    position: absolute;
+    top: 0px;
+    left: 0px;
+}
+#act3-caja2{
+    position: absolute;
+    top: 0px;
+    right: 0px;
+}
+#act3-caja3{
+    position: absolute;
+    bottom: 0px;
+    left: 0px;
+}
+#act3-caja4{
+    position: absolute;
+    bottom: 0px;
+    right: 0px;
+}
+#act3-caja5{
+    position: absolute;
+    left: 45%;
+    top: 45%;
+
+}
+/*act8*/
+#pajaro{
+    z-index: 0;
+}
+#gato{
+    z-index: 1;
+}
+#perro{
+    z-index: 2;
+}
+/*act4*/
+.act4-contenedor{
+ height: auto !important;
+}
+#cabecera{
+    border:1.5px solid  blue;
+    height: 30px;
+}
+#menu{
+    border:1.5px solid  blue;
+    height: 130px;
+    width: 20%;
+    float: left;
+}
+#cuerpo{
+    border:1.5px solid  blue;
+    height: 130px;
+    clear: right;
+}
+#pie{
+    border:1.5px solid  blue;
+    height: 30px;
+    clear: left;
+}
+/*act5*/
+#imagen-1{
+    float: left;
+    margin: 10px;
+    border: red solid 2px;
+}
+
+}
+#parrafo-2{
+    clear: left;
+}
+/*act6*/
+#imagen-gato{
+    float: left;
+    margin-right: 10px;
+    border-style: dotted;
+}
+#parrafo-2{
+    clear: both;
+}
+#imagen-perros{
+    float: right;
+    margin-left: 10px;
+    border: 3px dashed orange;
+}
+#parrafo-1{
+    text-align: justify;
+}
+
+
+
+
+
+
+
+
+
+
